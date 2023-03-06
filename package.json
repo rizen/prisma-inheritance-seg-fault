@@ -1,0 +1,17 @@
+{
+    "name": "broken-prisma",
+    "description": "broken prisma via inheritance",
+    "private": true,
+    "scripts": {
+        "db:build": "prisma generate",
+        "db:studio": "prisma studio",
+        "test": "vitest"
+    },
+    "devDependencies": {
+        "@prisma/client": "^4.11.0",
+        "@prisma/sdk": "^4.0.0",
+        "prisma": "^4.11.0",
+        "typescript": "^4.9.5",
+        "vitest": "^0.28.5"
+    }
+}
